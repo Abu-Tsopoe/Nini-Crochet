@@ -1,0 +1,113 @@
+*{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;  
+}
+header, footer{
+    background-color: white;
+}
+.navbar-brand img{
+    width: 50%;
+    height: 50%;
+}
+body{
+    background-color: #f7dede;
+}
+.navbar a:hover, .quick-links a:hover, .social a:hover, .policy a:hover{
+color: #d86666;
+text-decoration: underline;
+}
+
+#submit:hover, .btn:hover{
+    background-color: #d86666;
+    
+}
+h3, p, .card-body{
+    text-align: center;
+}
+.products h4{
+    margin-bottom: 20px;
+}
+.products .card{
+    width: 100%;
+   height: 100%;
+}
+.card{
+   padding: 10px;
+}
+.card img{
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    padding: 20px;
+   background-color: white;
+   box-sizing: border-box;
+}
+.form-control{
+    border-color: black;
+}
+
+.quick-links li, .policy li, .address li, .social li{
+   list-style: none;
+
+}
+.quick-links a, .social a, .policy a{
+    text-decoration: none;
+    color: black;
+}
+
+.copyright{
+    background-color: #d86666;
+}
+
+.store-policy p, .store-policy li, .privacy-policy p, .privacy-policy li, .terms-and-conditions p, .terms-and-conditions li, .about p, .home-orders p, .reviews p{
+    text-align: justify;
+}
+.store-policy a{
+    text-decoration: none;
+}
+.account div, .create-account div, .contact div{
+    display: flex;
+    justify-content: center;
+}
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px; 
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    border-radius: 5px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-to-top i{ 
+    font-size: 25px;
+}
+
+.order-form p, .contact-form p{
+    text-align: left;
+    color: red;
+}
+.products .card-body{
+    padding: 0px;
+}
+.footer1 h6{
+   border-bottom: dashed;
+}
