@@ -2,7 +2,6 @@ function validateOrder(){
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let phone = document.getElementById("phone").value;
-    let products = document.getElementById("products").value;
     let color = document.getElementById("color").value;
     let size = document.getElementById("size").value;
     let nameStatus = emailStatus = phoneStatus = productsStatus = colorStatus = sizeStatus = false;
@@ -55,19 +54,13 @@ function validateOrder(){
             document.getElementById("phoneNote").innerHTML = "Numbers Only";
         }
     }
-    //products validation
-    if(products === ""){
-        document.getElementById("productsNote").innerHTML = "Please choose your Product";
-    }
-    else{
-            nameStatus = true;
-        }
+    
     //color validation
     if(color === ""){
         document.getElementById("colorNote").innerHTML = "Please enter your Color";
     }
     else{
-            nameStatus = true;
+            colorStatus = true;
         }
 
     
@@ -77,11 +70,11 @@ function validateOrder(){
         document.getElementById("sizeNote").innerHTML = "Please enter your Size";
     }
     else{
-            nameStatus = true;
+            sizeStatus = true;
         }
 
     //return
-    if(nameStatus===true && emailStatus===true && phoneStatus===true && productsStatus===true && colorStatus===true && sizeStatus===true){
+    if(nameStatus===true && emailStatus===true && phoneStatus===true && colorStatus===true && sizeStatus===true){
         return true;
     } else{
         return false;
