@@ -55,7 +55,7 @@ form{
    background-color: white;
    box-sizing: border-box;
 }
-.form-control{
+.form-control, .form-select{
     border-color: black;
 }
 
