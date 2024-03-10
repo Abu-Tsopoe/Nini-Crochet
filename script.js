@@ -60,7 +60,6 @@ function validateOrder(){
         document.getElementById("productsNote").innerHTML = "Please choose your Product";
     }
     else{
-            document.getElementById("productNote").innerHTML = "";
             nameStatus = true;
         }
     //color validation
@@ -68,7 +67,6 @@ function validateOrder(){
         document.getElementById("colorNote").innerHTML = "Please enter your Color";
     }
     else{
-            document.getElementById("colorNote").innerHTML = "";
             nameStatus = true;
         }
 
@@ -79,7 +77,6 @@ function validateOrder(){
         document.getElementById("sizeNote").innerHTML = "Please enter your Size";
     }
     else{
-            document.getElementById("sizeNote").innerHTML = "";
             nameStatus = true;
         }
 
