@@ -111,3 +111,6 @@ form{
 .footer1 h6{
    border-bottom: dashed;
 }
+.copyright p{
+    border-bottom: 0;
+}
